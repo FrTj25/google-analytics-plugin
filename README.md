@@ -11,6 +11,15 @@ Prerequisites:
 * A Mobile App property through the Google Analytics Admin Console
 * (Android) Google Play Services SDK installed via [Android SDK Manager](https://developer.android.com/sdk/installing/adding-packages.html)
 
+###Edited version for personal bugfixes
+
+changed line 54 of  from
+
+    <framework src="com.google.android.gms:play-services-analytics:+" /> 
+to
+
+    <framework src="com.google.android.gms:play-services-analytics:9.0.0" />
+
 # Installing
 
 This plugin follows the Cordova 3.0+ plugin spec, so it can be installed through the Cordova CLI in your existing Cordova project:
